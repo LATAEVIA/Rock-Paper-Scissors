@@ -1,14 +1,19 @@
-<form action='/result' method='get'>
-  <button type="submit" class="btn btn-warning">Rock</button>
-  <input type="hidden" name="choice" value="rock" >
-</form>
+<div class="row">
+  <div class="col-sm-6">
+    <h1> Player 1</h1>
+    <form action='/player2' method='post'>
+      <button type="submit" class="btn btn-warning">Rock</button>
+      <input type="hidden" name="pl1choice" value="rock" >
+    </form>
 
-<form action='/result' method='get'>
-  <button type="submit" class="btn btn-default">Paper</button>
-  <input type="hidden" name="choice" value="paper" >
-</form>
+    <form action='/player2' method='post'>
+      <button type="submit" class="btn btn-default">Paper</button>
+      <input type="hidden" name="pl1choice" value="paper" >
+    </form>
 
-<form action='/result' method='get'>
-  <button type="submit" class="btn btn-danger">Scissors</button>
-  <input type="hidden" name="choice" value="scissors" >
-</form>
+    <form action='/player2' method='post'>
+      <button type="submit" class="btn btn-danger">Scissors</button>
+      <input type="hidden" name="pl1choice" value="scissors" >
+    </form>
+  </div>
+</div>
