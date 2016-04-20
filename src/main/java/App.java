@@ -20,7 +20,8 @@ public class App {
       Map<String, Object> model = new HashMap<String, Object>();
       model.put("template", "templates/result.vtl" );
       String input = request.queryParams("choice");
-      String result = RockPaperScissors.findWinner(input, "rock");
+      String compChoice = RockPaperScissors.getRandomChoice();
+      String result = RockPaperScissors.findWinner(input, compChoice);
       model.put("output", result );
       return new ModelAndView(model, layout);
     }, new VelocityTemplateEngine());

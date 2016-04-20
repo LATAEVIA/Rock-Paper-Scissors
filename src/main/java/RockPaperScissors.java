@@ -1,4 +1,4 @@
-
+import java.util.Random;
 
 public class RockPaperScissors {
   public static String findWinner(String player1, String player2) {
@@ -12,5 +12,12 @@ public class RockPaperScissors {
       return "player2 wins!";
     }
     return "tie!";
+  }
+
+  public static String getRandomChoice() {
+    String[] choices = { "rock", "paper", "scissors" };
+    Random generator = new Random();
+    int choice = generator.nextInt(3);
+    return choices[choice];
   }
 }
