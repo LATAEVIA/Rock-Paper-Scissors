@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="RockPaperScissorsTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2016-04-20T16:32:05" hostname="epicodus-59.local" time="0.002">
+<testsuite name="RockPaperScissorsTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2016-08-07T05:20:05" hostname="LaTaevias-MacBook-Pro.local" time="0.002">
   <properties/>
   <testcase name="checkWinner_tie" classname="RockPaperScissorsTest" time="0.001"/>
   <testcase name="checkWinner_paperBeatsRockp1" classname="RockPaperScissorsTest" time="0.0"/>
